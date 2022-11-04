@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "yarn build:nft && yarn build:market",
-    "build:nft": "near-sdk-js build src/nft-contract/index.ts build/nft.wasm",
+    "build:nft": "near-sdk-js build src/nft-contract/index.ts build/mynft.wasm",
     "build:market": "near-sdk-js build src/market-contract/index.ts build/market.wasm",
     "test": "ava"
   },
